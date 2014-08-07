@@ -64,7 +64,7 @@
     <!-- Header -->
     
     <!-- Conteúdo da Página -->
-    
+
     <?php echo $content; ?>
     
     <!-- Footer -->

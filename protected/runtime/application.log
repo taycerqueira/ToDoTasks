@@ -2340,3 +2340,749 @@ REQUEST_URI=/ToDoTask/
 in C:\xampp\htdocs\ToDoTask\protected\views\site\index.php (24)
 in C:\xampp\htdocs\ToDoTask\protected\controllers\SiteController.php (32)
 in C:\xampp\htdocs\ToDoTask\index.php (13)
+2014/08/05 16:25:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:25:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:30:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:30:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:30:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:30:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:30:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:30:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:30:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:30:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:30:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery-...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/site/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/site/login
+---
+2014/08/05 16:30:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/site/login
+---
+2014/08/05 16:34:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:34:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:34:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:34:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:35:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:35:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:35:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:35:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:35:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:35:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:36:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:36:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:37:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:37:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:40:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:40:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:40:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:40:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:45:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:45:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:45:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:45:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:46:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:46:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:46:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:46:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:46:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:46:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:46:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:46:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:47:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:47:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:47:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:47:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:47:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/bootstr...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/site/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/site/login
+---
+2014/08/05 16:47:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery-...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/site/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/site/login
+---
+2014/08/05 16:49:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:49:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:50:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:50:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:50:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:50:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:50:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:50:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:51:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:51:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:51:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:51:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:51:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:51:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:51:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:51:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:51:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:51:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:53:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:53:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:54:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---
+2014/08/05 16:54:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario
+---

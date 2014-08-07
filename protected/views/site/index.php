@@ -5,10 +5,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>To Do Tasks</h1>
+                        <h1>To Do Tasks TESTE</h1>
                         <h3>Seu sistema de gerenciamento de tarefas</h3>
                         <hr class="intro-divider">
-						<div class="form">
+						<div class="row">
 	                         <?php 
 		                        /** @var TbActiveForm $form */
 		                        $form = $this->beginWidget(
