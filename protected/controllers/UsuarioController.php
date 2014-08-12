@@ -37,11 +37,11 @@ class UsuarioController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
-			),
-			array('deny',  // deny all users
 				'users'=>array('*'),
 			),
+			/*array('deny',  // deny all users
+				'users'=>array('*'),
+			),*/
 		);
 	}
 
@@ -65,7 +65,7 @@ class UsuarioController extends Controller
 		$model=new Usuario;
 
 		// Uncomment the following line if AJAX validation is needed
-		$this->performAjaxValidation($model);
+		//$this->performAjaxValidation($model);
 
 		if(isset($_POST['Usuario']))
 		{

@@ -47,6 +47,7 @@ return array(
 			'bootstrapCss' => true,
 			'jqueryCss' => true,
 			'enableJS' => true,
+			'yiiCss' => true,
 			'ajaxJsLoad' => false,
 		),
 		

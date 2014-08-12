@@ -1,5 +1,3 @@
-<div div class="container">
-
 	<div class="form">
 
 		<?php
@@ -23,9 +21,7 @@
 			$this->endWidget();
 			unset($form);
 
-		?>
+		?>	
+	
+	</div> <!-- form -->
 
-	</div>
-	<!-- form -->
-
-</div>

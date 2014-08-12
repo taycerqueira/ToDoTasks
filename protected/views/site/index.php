@@ -1,6 +1,6 @@
+   
    <div class="intro-header">
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
@@ -9,20 +9,24 @@
                         <hr class="intro-divider">
 						<div class="row">
 								<?php	
-									SiteController::actionLogin();	
+									//SiteController::actionLogin();	
+                                    $this->widget(
+                                        'booster.widgets.TbButton',
+                                        array(
+                                            'label' => 'Entrar',
+                                            'context' => 'primary',
+                                            'url' => '/index.php/site/login/',
+                                        )
+                                    );
 								?>
 						</div>
                     </div>
                 </div>
             </div>
-
         </div>
-        <!-- /.container -->
-
     </div>
     
     <div class="content-section-a">
-
         <div class="container">
 
                  <hr class="section-heading-spacer">
@@ -32,6 +36,4 @@
 
 
         </div>
-        <!-- /.container -->
-
     </div>

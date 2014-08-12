@@ -4280,3 +4280,1904 @@ Stack trace:
 REQUEST_URI=/ToDoTask/index.php/site/js/bootstrap.min.js
 HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/site/login
 ---
+2014/08/12 15:13:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:13:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:14:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:14:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:14:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:14:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:14:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:14:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:19:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:19:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:20:16 [error] [exception.CException] exception 'CException' with message 'UsuarioController possui uma chamada endWidget() extra em sua visualização.' in C:\xampp\yii\framework\web\CBaseController.php:210
+Stack trace:
+#0 C:\xampp\htdocs\ToDoTask\protected\views\usuario\_form.php(13): CBaseController->endWidget()
+#1 C:\xampp\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\ToDoTask\protected\views\usuario\create.php(18): CController->renderPartial('_form', Array)
+#5 C:\xampp\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#9 C:\xampp\htdocs\ToDoTask\protected\controllers\UsuarioController.php(79): CController->render('create', Array)
+#10 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): UsuarioController->actionCreate()
+#11 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#20 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/create')
+#21 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/create
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:20:33 [error] [exception.CException] exception 'CException' with message 'UsuarioController possui uma chamada endWidget() extra em sua visualização.' in C:\xampp\yii\framework\web\CBaseController.php:210
+Stack trace:
+#0 C:\xampp\htdocs\ToDoTask\protected\views\usuario\_form.php(13): CBaseController->endWidget()
+#1 C:\xampp\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\ToDoTask\protected\views\usuario\create.php(18): CController->renderPartial('_form', Array)
+#5 C:\xampp\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#9 C:\xampp\htdocs\ToDoTask\protected\controllers\UsuarioController.php(79): CController->render('create', Array)
+#10 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): UsuarioController->actionCreate()
+#11 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#20 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/create')
+#21 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/create
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:20:38 [error] [exception.CException] exception 'CException' with message 'UsuarioController possui uma chamada endWidget() extra em sua visualização.' in C:\xampp\yii\framework\web\CBaseController.php:210
+Stack trace:
+#0 C:\xampp\htdocs\ToDoTask\protected\views\usuario\_form.php(13): CBaseController->endWidget()
+#1 C:\xampp\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\ToDoTask\protected\views\usuario\create.php(18): CController->renderPartial('_form', Array)
+#5 C:\xampp\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#9 C:\xampp\htdocs\ToDoTask\protected\controllers\UsuarioController.php(79): CController->render('create', Array)
+#10 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): UsuarioController->actionCreate()
+#11 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#20 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/create')
+#21 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/create
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:23:46 [error] [exception.CException] exception 'CException' with message 'UsuarioController contém tags widgets aninhadas incorretamente na sua visualização "C:\xampp\htdocs\ToDoTask\protected\views\usuario\_form.php". O widget CActiveForm não possui uma chamada endWidget().' in C:\xampp\yii\framework\web\CBaseController.php:101
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#1 C:\xampp\htdocs\ToDoTask\protected\views\usuario\create.php(18): CController->renderPartial('_form', Array)
+#2 C:\xampp\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#6 C:\xampp\htdocs\ToDoTask\protected\controllers\UsuarioController.php(79): CController->render('create', Array)
+#7 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): UsuarioController->actionCreate()
+#8 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#17 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/create')
+#18 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/create
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:23:59 [error] [exception.CException] exception 'CException' with message 'UsuarioController contém tags widgets aninhadas incorretamente na sua visualização "C:\xampp\htdocs\ToDoTask\protected\views\usuario\_form.php". O widget CActiveForm não possui uma chamada endWidget().' in C:\xampp\yii\framework\web\CBaseController.php:101
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#1 C:\xampp\htdocs\ToDoTask\protected\views\usuario\create.php(18): CController->renderPartial('_form', Array)
+#2 C:\xampp\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#6 C:\xampp\htdocs\ToDoTask\protected\controllers\UsuarioController.php(79): CController->render('create', Array)
+#7 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): UsuarioController->actionCreate()
+#8 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#17 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/create')
+#18 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/create
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:24:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/bootstrap.min.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/
+---
+2014/08/12 15:24:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/jquery-1.11.0.js".' in C:\xampp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.11....')
+#1 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ToDoTask/index.php/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/
+---
+2014/08/12 15:24:09 [error] [exception.CException] exception 'CException' with message 'UsuarioController contém tags widgets aninhadas incorretamente na sua visualização "C:\xampp\htdocs\ToDoTask\protected\views\usuario\_form.php". O widget CActiveForm não possui uma chamada endWidget().' in C:\xampp\yii\framework\web\CBaseController.php:101
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#1 C:\xampp\htdocs\ToDoTask\protected\views\usuario\create.php(18): CController->renderPartial('_form', Array)
+#2 C:\xampp\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#6 C:\xampp\htdocs\ToDoTask\protected\controllers\UsuarioController.php(79): CController->render('create', Array)
+#7 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): UsuarioController->actionCreate()
+#8 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#17 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/create')
+#18 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:24:45 [error] [exception.CException] exception 'CException' with message 'UsuarioController contém tags widgets aninhadas incorretamente na sua visualização "C:\xampp\htdocs\ToDoTask\protected\views\usuario\_form.php". O widget CActiveForm não possui uma chamada endWidget().' in C:\xampp\yii\framework\web\CBaseController.php:101
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#1 C:\xampp\htdocs\ToDoTask\protected\views\usuario\create.php(18): CController->renderPartial('_form', Array)
+#2 C:\xampp\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#6 C:\xampp\htdocs\ToDoTask\protected\controllers\UsuarioController.php(79): CController->render('create', Array)
+#7 C:\xampp\yii\framework\web\actions\CInlineAction.php(49): UsuarioController->actionCreate()
+#8 C:\xampp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#17 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/create')
+#18 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:25:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:26:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:26:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:28:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:28:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:28:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:29:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:29:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:29:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:29:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:30:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:30:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:31:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:31:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:32:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:32:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:34:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:34:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 15:34:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F89&yt0=Create
+---
+2014/08/12 15:34:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F89&yt0=Create
+---
+2014/08/12 15:35:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F89&yt0=Create
+---
+2014/08/12 15:35:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F89&yt0=Create
+---
+2014/08/12 15:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F89&yt0=Create
+---
+2014/08/12 15:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F89&yt0=Create
+---
+2014/08/12 15:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:38:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:38:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:39:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:39:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:39:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:39:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:39:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:41:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:41:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:41:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:41:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:41:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:41:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:43:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=091289&yt0=Cadastrar
+---
+2014/08/12 15:44:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F1989&yt0=Cadastrar
+---
+2014/08/12 15:44:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F1989&yt0=Cadastrar
+---
+2014/08/12 15:46:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F1989&yt0=Cadastrar
+---
+2014/08/12 15:46:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F1989&yt0=Cadastrar
+---
+2014/08/12 15:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=1989-09-12&yt0=Cadastrar
+---
+2014/08/12 15:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=1989-09-12&yt0=Cadastrar
+---
+2014/08/12 15:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=1989-09-12&yt0=Cadastrar
+---
+2014/08/12 15:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=1989-09-12&yt0=Cadastrar
+---
+2014/08/12 15:55:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F1989&yt0=Cadastrar
+---
+2014/08/12 15:55:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F1989&yt0=Cadastrar
+---
+2014/08/12 15:56:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F1989&yt0=Cadastrar
+---
+2014/08/12 15:56:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F1989&yt0=Cadastrar
+---
+2014/08/12 15:56:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=1111111111&yt0=Cadastrar
+---
+2014/08/12 15:56:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=1111111111&yt0=Cadastrar
+---
+2014/08/12 15:58:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=1111111111&yt0=Cadastrar
+---
+2014/08/12 15:58:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=1111111111&yt0=Cadastrar
+---
+2014/08/12 15:58:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F89&yt0=Create
+---
+2014/08/12 15:58:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F89&yt0=Create
+---
+2014/08/12 16:01:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F89&yt0=Create
+---
+2014/08/12 16:01:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F89&yt0=Create
+---
+2014/08/12 16:01:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:01:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:01:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F1989&yt0=Create
+---
+2014/08/12 16:01:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F1989&yt0=Create
+---
+2014/08/12 16:05:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F1989&yt0=Create
+---
+2014/08/12 16:05:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create?Usuario%5Bnome%5D=tayane&Usuario%5Bemail%5D=tayane%40uefs.br&Usuario%5BdataNascimento%5D=09%2F12%2F1989&yt0=Create
+---
+2014/08/12 16:21:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:21:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:25:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:25:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:25:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:25:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:26:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:28:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:28:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:28:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:28:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:28:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:28:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:29:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:29:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:29:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:29:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:31:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:31:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:32:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:32:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:32:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:32:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:32:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:32:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:34:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:34:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/jque...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/jquery-1.11.0.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---
+2014/08/12 16:35:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'O sistema não foi capaz de encontrar a ação "js" solicitada.' in C:\xampp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\xampp\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\xampp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuario/js/boot...')
+#3 C:\xampp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\ToDoTask\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ToDoTask/index.php/usuario/js/bootstrap.min.js
+HTTP_REFERER=http://localhost:8080/ToDoTask/index.php/usuario/create
+---

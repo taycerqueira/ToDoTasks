@@ -65,8 +65,8 @@ class Usuario extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'nome' => 'Nome',
-			'email' => 'Email',
-			'dataNascimento' => 'Data Nascimento',
+			'email' => 'E-mail',
+			'dataNascimento' => 'Data de Nascimento',
 			'senha' => 'Senha',
 		);
 	}
