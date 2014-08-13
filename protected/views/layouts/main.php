@@ -37,16 +37,14 @@
 
 </head>
 
-
-<div class="container">
+<div class="well">
     <!-- Navigation -->
         <?php
-
             $this->widget(
                 'booster.widgets.TbNavbar',
                 array(
                     'brand' => 'To Do Tasks',
-                    'brandOptions' => array('style' => 'width:auto;margin-left: 50px;'),
+                    'brandOptions' => array('style' => 'width:auto; margin-left: 50px;'),
                     'fixed' => 'top',
                     'fluid' => true,
                     //'htmlOptions' => array('style' => 'position:absolute'),
@@ -56,19 +54,19 @@
                             'type' => 'navbar',
                             'items' => array(
                                 array('label' => 'Home', 'url' => '#', 'active' => true),
-                                array('label' => 'Entrar', 'url' => 'site/login'),
+                                array('label' => 'Entrar', 'url' => 'index.php/site/login'),
                                 array('label' => 'Cadastrar', 'url' => 'index.php/usuario/create'),
                             )
-                        )
+                        ),
+
                     )
+
                 )
             );
-
         ?>
 </div>
       
     <!-- Conteúdo da Página -->
-
     <?php echo $content; ?>
 
     <!-- Footer -->

@@ -4,6 +4,7 @@
 /* @var $form CActiveForm */
 ?>
 
+<div class="well">
 	<form class="form-horizontal">
 
 		<?php $form=$this->beginWidget('CActiveForm', array(
@@ -39,8 +40,21 @@
 
 			<div class="row buttons">
 				<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+				<?php 
+					/*$this->widget(
+					    'booster.widgets.TbButton',
+					    array(
+					    	'buttonType' => 'submit', 
+					    	'label' => 'Cadastrar',
+					    	'context' => 'primary',
+					    	'htmlOptions' => array('style'=>'width: 100px; margin-left: 40%;'),
+					    )
+				    );*/
+			    ?>
 			</div>
 
 		<?php $this->endWidget(); ?>
 	</form> <!-- form -->
+</div>
+
 

@@ -1,3 +1,8 @@
+
+<div class="container" style="width: 30%">
+
+	<h2 style="text-align:center;">Login</h2>
+
 	<div class="form">
 
 		<?php
@@ -15,7 +20,12 @@
 			echo $form->passwordFieldGroup($model, 'senha');
 			$this->widget(
 			    'booster.widgets.TbButton',
-			    array('buttonType' => 'submit', 'label' => 'Entrar')
+			    array(
+			    	'buttonType' => 'submit', 
+			    	'label' => 'Entrar',
+			    	'context' => 'primary',
+			    	'htmlOptions' => array('style'=>'width: 80px; margin-left: 38%;'),
+			    )
 			);
 			 
 			$this->endWidget();
@@ -24,4 +34,5 @@
 		?>	
 	
 	</div> <!-- form -->
+</div>
 

@@ -8,17 +8,7 @@
                         <h3>Seu sistema de gerenciamento de tarefas</h3>
                         <hr class="intro-divider">
 						<div class="row">
-								<?php	
-									//SiteController::actionLogin();	
-                                    $this->widget(
-                                        'booster.widgets.TbButton',
-                                        array(
-                                            'label' => 'Entrar',
-                                            'context' => 'primary',
-                                            'url' => '/index.php/site/login/',
-                                        )
-                                    );
-								?>
+                            <a href="index.php/site/login" class="btn btn-large btn-primary">Entrar</a>
 						</div>
                     </div>
                 </div>

@@ -3,6 +3,8 @@
 /* @var $model Usuario */
 ?>
 
-<h1>Cadastrar</h1>
+<div class="container" style="width: 50%">
+	<h2 style="text-align:center;">Cadastro</h2>
 
-<?php $this->renderPartial('_form', array('model'=>$model)); ?>
+	<?php $this->renderPartial('_form', array('model'=>$model)); ?>
+</div>

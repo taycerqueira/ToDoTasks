@@ -39,9 +39,9 @@ class UsuarioController extends Controller
 				'actions'=>array('admin','delete'),
 				'users'=>array('*'),
 			),
-			/*array('deny',  // deny all users
+			array('deny',  // deny all users
 				'users'=>array('*'),
-			),*/
+			),
 		);
 	}
 
@@ -69,6 +69,7 @@ class UsuarioController extends Controller
 
 		if(isset($_POST['Usuario']))
 		{
+			echo "usuario cadastrado com sucesso";
 			$model->attributes=$_POST['Usuario'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
