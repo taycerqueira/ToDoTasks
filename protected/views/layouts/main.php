@@ -38,24 +38,26 @@
 </head>
 
 <div class="well">
+
     <!-- Navigation -->
         <?php
             $this->widget(
                 'booster.widgets.TbNavbar',
                 array(
+					'id' => 'navbar',
                     'brand' => 'To Do Tasks',
                     'brandOptions' => array('style' => 'width:auto; margin-left: 50px;'),
                     'fixed' => 'top',
                     'fluid' => true,
-                    //'htmlOptions' => array('style' => 'position:absolute'),
                     'items' => array(
                         array(
+							'id' => 'menu',
                             'class' => 'booster.widgets.TbMenu',
                             'type' => 'navbar',
                             'items' => array(
-                                array('label' => 'Home', 'url' => '#', 'active' => true),
-                                array('label' => 'Entrar', 'url' => 'index.php/site/login'),
-                                array('label' => 'Cadastrar', 'url' => 'index.php/usuario/create'),
+                                array('label' => 'Home', 'url' => $this->createAbsoluteUrl('site/index'), 'active' => true),
+                                array('label' => 'Entrar', 'url' => $this->createAbsoluteUrl('site/login')),
+                                array('label' => 'Cadastrar', 'url' => $this->createAbsoluteUrl('usuario/create')),
                             )
                         ),
 
@@ -66,10 +68,11 @@
         ?>
 </div>
       
-    <!-- Conteúdo da Página -->
+<!-- Conteúdo da Página -->
+    
     <?php echo $content; ?>
 
-    <!-- Footer -->
+<!-- Footer -->
 
     <footer>
         <div class="container">

@@ -7,7 +7,6 @@
  * @property integer $id
  * @property string $nome
  * @property string $email
- * @property string $dataNascimento
  * @property string $senha
  *
  * The followings are the available model relations:
@@ -15,6 +14,7 @@
  * @property Tarefa[] $tarefas
  * @property TipoTarefa[] $tipoTarefas
  */
+
 class Usuario extends CActiveRecord
 {
 	/**
@@ -24,6 +24,7 @@ class Usuario extends CActiveRecord
 	{
 		return 'usuario';
 	}
+
 	/**
 	 * @return array validation rules for model attributes.
 	 */
@@ -32,14 +33,13 @@ class Usuario extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nome, email, dataNascimento, senha', 'required'),
+			array('nome, email, senha', 'required'),
 			array('nome', 'length', 'max'=>100),
 			array('email', 'length', 'max'=>70),
-			array('email', 'email'),
 			array('senha', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, nome, email, dataNascimento, senha', 'safe', 'on'=>'search'),
+			array('id, nome, email, senha', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -66,7 +66,6 @@ class Usuario extends CActiveRecord
 			'id' => 'ID',
 			'nome' => 'Nome',
 			'email' => 'E-mail',
-			'dataNascimento' => 'Data de Nascimento',
 			'senha' => 'Senha',
 		);
 	}
@@ -92,7 +91,6 @@ class Usuario extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('nome',$this->nome,true);
 		$criteria->compare('email',$this->email,true);
-		$criteria->compare('dataNascimento',$this->dataNascimento,true);
 		$criteria->compare('senha',$this->senha,true);
 
 		return new CActiveDataProvider($this, array(

@@ -1,11 +1,10 @@
-   
    <div class="intro-header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <h1>To Do Tasks</h1>
-                        <h3>Seu sistema de gerenciamento de tarefas</h3>
+                        <h3>Seu Sistema de Gerenciamento de Tarefas</h3>
                         <hr class="intro-divider">
 						<div class="row">
                             <a href="index.php/site/login" class="btn btn-large btn-primary">Entrar</a>

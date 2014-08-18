@@ -7,27 +7,44 @@
  */
 class UserIdentity extends CUserIdentity
 {
-	/**
-	 * Authenticates a user.
-	 * The example implementation makes sure if the username and password
-	 * are both 'demo'.
-	 * In practical applications, this should be changed to authenticate
-	 * against some persistent user identity storage (e.g. database).
-	 * @return boolean whether authentication succeeds.
-	 */
-	public function authenticate()
-	{
-		$users=array(
-			// username => password
-			'demo'=>'demo',
-			'admin'=>'admin',
-		);
-		if(!isset($users[$this->username]))
-			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		elseif($users[$this->username]!==$this->password)
-			$this->errorCode=self::ERROR_PASSWORD_INVALID;
-		else
+	private $_id;
+	private $_username;
+	
+	public function authenticate() {
+		$user = Usuario::model()->findByAttributes(array('email'=>$this->username));
+
+		if($user===null){
+			$this->errorCode = self::ERROR_USERNAME_INVALID;
+		}
+		
+        else if($user->senha!==$this->password){
+            $this->errorCode=self::ERROR_PASSWORD_INVALID;
+        }
+        
+		else{
+			$this->_id = $user->id;
+			//$this->setState('id', $user->id);
 			$this->errorCode=self::ERROR_NONE;
-		return !$this->errorCode;
+		}
+
+		return $this->errorCode==self::ERROR_NONE;
+	}
+	
+	/**
+	 * Overriding CUserIdentity's getId() method
+	 * @access public
+	 * @return integer user id
+	 */
+	public function getId() {
+	    return $this->_id;
+	}
+	
+	/**
+	 * Overriding CUserIdentity's getName() method
+	 * @access public
+	 * @return string username
+	 */
+	public function getName() {
+	    return $this->_username;
 	}
 }

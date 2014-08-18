@@ -1,60 +1,30 @@
-<?php
-/* @var $this UsuarioController */
-/* @var $model Usuario */
-/* @var $form CActiveForm */
+<?php 
+
+	/** @var TbActiveForm $form */
+	$form = $this->beginWidget(
+	    'booster.widgets.TbActiveForm',
+	    array(
+	    	'id'=>'usuario-form',
+	        //'id' => 'verticalForm',
+	        'htmlOptions' => array('class' => 'well'), // for inset effect
+	        'enableAjaxValidation'=>false,
+	    )
+	);
+	 
+	echo $form->textFieldGroup($model, 'nome', array('size'=>60,'maxlength'=>100));
+	echo $form->textFieldGroup($model, 'email', array('size'=>60,'maxlength'=>70));
+	echo $form->passwordFieldGroup($model, 'senha', array('size'=>10,'maxlength'=>10));
+	$this->widget(
+		'booster.widgets.TbButton',
+		 array(
+			    'buttonType' => 'submit', 
+			    'label' => 'Cadastrar',
+			    'context' => 'primary',
+			    'htmlOptions' => array('style'=>'width: 100px; margin-left: 35%;'),
+			  )
+		 );
+	 
+	$this->endWidget();
+	unset($form); 
+	
 ?>
-
-<div class="well">
-	<form class="form-horizontal">
-
-		<?php $form=$this->beginWidget('CActiveForm', array(
-			'id'=>'usuario-form',
-			// Please note: When you enable ajax validation, make sure the corresponding
-			// controller action is handling ajax validation correctly.
-			// There is a call to performAjaxValidation() commented in generated controller code.
-			// See class documentation of CActiveForm for details on this.
-			'enableAjaxValidation'=>false,
-		)); ?>
-
-			<p class="note">Campos com <span class="required">*</span> são obrigatórios.</p>
-
-			<?php echo $form->errorSummary($model); ?>
-
-			<div class="control-group">
-				<?php echo $form->labelEx($model,'nome'); ?>
-				<?php echo $form->textField($model,'nome',array('size'=>60,'maxlength'=>100)); ?>
-				<?php echo $form->error($model,'nome'); ?>
-			</div>
-
-			<div class="control-group">
-				<?php echo $form->labelEx($model,'email'); ?>
-				<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>70)); ?>
-				<?php echo $form->error($model,'email'); ?>
-			</div>
-
-			<div class="control-group">
-				<?php echo $form->labelEx($model,'dataNascimento'); ?>
-				<?php echo $form->textField($model,'dataNascimento'); ?>
-				<?php echo $form->error($model,'dataNascimento'); ?>
-			</div>
-
-			<div class="row buttons">
-				<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
-				<?php 
-					/*$this->widget(
-					    'booster.widgets.TbButton',
-					    array(
-					    	'buttonType' => 'submit', 
-					    	'label' => 'Cadastrar',
-					    	'context' => 'primary',
-					    	'htmlOptions' => array('style'=>'width: 100px; margin-left: 40%;'),
-					    )
-				    );*/
-			    ?>
-			</div>
-
-		<?php $this->endWidget(); ?>
-	</form> <!-- form -->
-</div>
-
-

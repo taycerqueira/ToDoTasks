@@ -65,11 +65,11 @@ class UsuarioController extends Controller
 		$model=new Usuario;
 
 		// Uncomment the following line if AJAX validation is needed
-		//$this->performAjaxValidation($model);
+		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Usuario']))
 		{
-			echo "usuario cadastrado com sucesso";
+			
 			$model->attributes=$_POST['Usuario'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));

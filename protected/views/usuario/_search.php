@@ -27,8 +27,8 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'dataNascimento'); ?>
-		<?php echo $form->textField($model,'dataNascimento'); ?>
+		<?php echo $form->label($model,'senha'); ?>
+		<?php echo $form->textField($model,'senha',array('size'=>10,'maxlength'=>10)); ?>
 	</div>
 
 	<div class="row buttons">

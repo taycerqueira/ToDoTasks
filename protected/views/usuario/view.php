@@ -24,6 +24,6 @@ $this->menu=array(
 		'id',
 		'nome',
 		'email',
-		'dataNascimento',
+		'senha',
 	),
 )); ?>
