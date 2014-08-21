@@ -33,11 +33,11 @@ class TarefaController extends Controller
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
-				'users'=>array('@'),
+				'users'=>array('*'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
+				'users'=>array('*'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -60,15 +60,15 @@ class TarefaController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate($usuario)
+	public function actionCreate($idusuario)
 	{
 		$model=new Tarefa;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Tarefa']))
-		{
+		if(isset($_POST['Tarefa'])){
+			
 			$model->attributes=$_POST['Tarefa'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
@@ -76,7 +76,7 @@ class TarefaController extends Controller
 
 		$this->render('create',array(
 			'model'=>$model,
-			'usuario'=>$usuario,
+			'idusuario'=> $idusuario,
 		));
 	}
 

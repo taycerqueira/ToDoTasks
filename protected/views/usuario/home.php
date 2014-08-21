@@ -1,6 +1,7 @@
 <?php
 /* @var $this UsuarioController */
 /* @var $model Usuario */
+
 ?>
 
 <div class="container">
@@ -16,11 +17,13 @@
 				array(
 						'label' => 'Nova Tarefa',
 						'context' => 'primary',
-						'buttonType' => 'POST',
-						'url' => array($this::createUrl('tarefa/create'), 'usuario' => $model),
-				)
-		); 
-		
+						'buttonType' => 'link',
+						'url' => $this->createUrl('tarefa/create', array('idusuario' => $model->id)),
+				
+					 )
+				
+		);
+
 		echo ' ';
 	
 		$this->widget(

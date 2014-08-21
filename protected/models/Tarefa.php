@@ -71,11 +71,11 @@ class Tarefa extends CActiveRecord
 			'id' => 'ID',
 			'titulo' => 'Titulo',
 			'descricao' => 'Descricao',
-			'dataCriacao' => 'Data Criacao',
-			'dataConclusao' => 'Data Conclusao',
-			'isPublic' => 'Is Public',
+			'dataCriacao' => 'Data de Criacao',
+			'dataConclusao' => 'Data de Conclusao',
+			'isPublic' => 'Publica',
 			'criadorId' => 'Criador',
-			'tipoTarefaId' => 'Tipo Tarefa',
+			'tipoTarefaId' => 'Tipo da Tarefa',
 		);
 	}
 

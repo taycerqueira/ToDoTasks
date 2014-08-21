@@ -58,7 +58,6 @@ class UsuarioController extends Controller
 	
 	public function actionHome($id){
 		$this->render('home', array('model' => $this->loadModel($id)));
-		//$this->render('home');
 	}
 
 	/**
