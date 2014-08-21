@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
 
 <head>
 
@@ -69,8 +69,8 @@
 </div>
       
 <!-- Conteúdo da Página -->
-    
-    <?php echo $content; ?>
+
+<?php echo $content; ?>
 
 <!-- Footer -->
 
@@ -91,7 +91,7 @@
                             <a href="#uefs">UEFS</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Assessoria Especial de Informatica - Gerencia de Desenvolvimento. Universidade Estadual de Feira de Santana</p>
+                    <p class="copyright text-muted small">Copyright &copy; Assessoria Especial de Informática - Gerencia de Desenvolvimento. Universidade Estadual de Feira de Santana</p>
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-   <div class="intro-header">
+    <div class="intro-header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -17,12 +17,9 @@
     
     <div class="content-section-a">
         <div class="container">
-
-                 <hr class="section-heading-spacer">
-                 <div class="clearfix"></div>
-                 <h2 class="section-heading">To Do Tasks... (alguma descricao)</h2>
-                 <p class="lead">Mais informacoes... </p>
-
-
+             <hr class="section-heading-spacer">
+             <div class="clearfix"></div>
+             <h2 class="section-heading">To Do Tasks... (alguma descrição)</h2>
+             <p class="lead">Mais informacoes... </p>
         </div>
     </div>

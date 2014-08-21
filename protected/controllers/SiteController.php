@@ -76,14 +76,14 @@ class SiteController extends Controller
 	/**
 	 * Displays the login page
 	 */
-	public function actionLogin()
-	{
+	public function actionLogin() {
 		
 		$model=new LoginForm;
+		
 		if(isset($_POST['LoginForm'])) {
 			$model->attributes=$_POST['LoginForm'];
 			if($model->validate() && $model->login()) {
-				$this->redirect(Yii::app()->user->returnUrl);
+				$this->redirect(array('usuario/home','id'=>Yii::app()->user->id));
 			}
 		}
 		

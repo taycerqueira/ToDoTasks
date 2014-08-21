@@ -1,18 +1,13 @@
 <?php
 /* @var $this TarefaController */
 /* @var $model Tarefa */
-
-$this->breadcrumbs=array(
-	'Tarefas'=>array('index'),
-	'Create',
-);
-
-$this->menu=array(
-	array('label'=>'List Tarefa', 'url'=>array('index')),
-	array('label'=>'Manage Tarefa', 'url'=>array('admin')),
-);
+/* @var $usuario Usuario */
 ?>
 
-<h1>Create Tarefa</h1>
+<div class="page-header">
+	<h1>To Do Tasks</h1>
+	<h3>Olá <?php echo $usuario->nome ?>, seja bem-vind@!</h3>
+	<h4>Nova Tarefa</h4>
+</div>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

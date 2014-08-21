@@ -9,6 +9,7 @@ class UserIdentity extends CUserIdentity
 {
 	private $_id;
 	private $_username;
+	private $_usuario;
 	
 	public function authenticate() {
 		$user = Usuario::model()->findByAttributes(array('email'=>$this->username));
@@ -23,6 +24,7 @@ class UserIdentity extends CUserIdentity
         
 		else{
 			$this->_id = $user->id;
+			$this->_usuario = $user;
 			//$this->setState('id', $user->id);
 			$this->errorCode=self::ERROR_NONE;
 		}
@@ -47,4 +49,6 @@ class UserIdentity extends CUserIdentity
 	public function getName() {
 	    return $this->_username;
 	}
+			
+	
 }

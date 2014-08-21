@@ -28,12 +28,12 @@ class UsuarioController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('create','index','view'),
 				'users'=>array('*'),
 			),
-			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
-				'users'=>array('*'),
+			array('allow', // allow authenticated...
+				'actions'=>array('update', 'view', 'home'),
+				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
@@ -54,6 +54,11 @@ class UsuarioController extends Controller
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
 		));
+	}
+	
+	public function actionHome($id){
+		$this->render('home', array('model' => $this->loadModel($id)));
+		//$this->render('home');
 	}
 
 	/**
@@ -163,8 +168,7 @@ class UsuarioController extends Controller
 	 * Performs the AJAX validation.
 	 * @param Usuario $model the model to be validated
 	 */
-	protected function performAjaxValidation($model)
-	{
+	protected function performAjaxValidation($model){
 		if(isset($_POST['ajax']) && $_POST['ajax']==='usuario-form')
 		{
 			echo CActiveForm::validate($model);
