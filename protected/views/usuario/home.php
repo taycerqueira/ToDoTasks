@@ -32,6 +32,7 @@
 						'label' => 'Meus Tipos de Tarefa',
 						'context' => 'primary',
 						'buttonType' => 'link',
+						'url' => $this->createUrl('tipoTarefa/create', array('idusuario' => $model->id)),
 				)
 		);
 		
@@ -43,7 +44,7 @@
 						'label' => 'Minhas Tags',
 						'context' => 'primary',
 						'buttonType' => 'link',
-						'url' => array('tag/create'),
+						'url' => $this->createUrl('tag/view', array('idusuario' => $model->id)),
 				)
 		);
 	
@@ -51,7 +52,13 @@
 	
 	?>
 	
-	<h2>Tarefas</h2>
+	<br></br>
+	
+	<div>
+		<blockquote>
+			<h2>Minhas Tarefas</h2>
+		</blockquote>
+	</div>
 	
 	<?php 
 	

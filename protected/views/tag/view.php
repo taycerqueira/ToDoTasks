@@ -1,28 +1,75 @@
 <?php
 /* @var $this TagController */
-/* @var $model Tag */
+/* @var $idusuario Integer */
 
-$this->breadcrumbs=array(
-	'Tags'=>array('index'),
-	$model->id,
-);
+$usuario = Usuario::model()->findByPk($idusuario);
 
-$this->menu=array(
-	array('label'=>'List Tag', 'url'=>array('index')),
-	array('label'=>'Create Tag', 'url'=>array('create')),
-	array('label'=>'Update Tag', 'url'=>array('update', 'id'=>$model->id)),
-	array('label'=>'Delete Tag', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Tag', 'url'=>array('admin')),
-);
 ?>
 
-<h1>View Tag #<?php echo $model->id; ?></h1>
+<div class="container" style="width: 37%; margin-left: 60px;">
 
-<?php $this->widget('zii.widgets.CDetailView', array(
-	'data'=>$model,
-	'attributes'=>array(
-		'id',
-		'nome',
-		'usuarioId',
-	),
-)); ?>
+	<div class="page-header">
+		<h1>To Do Tasks</h1>
+	</div>
+	
+	<div>
+		<blockquote>
+			<h2>Minhas Tags</h2>
+		</blockquote>
+	</div>
+	
+	<?php 
+		$this->widget(
+				'booster.widgets.TbButton',
+				array(
+						'label' => 'Nova Tag',
+						'context' => 'primary',
+						'buttonType' => 'link',
+						'url' => $this->createUrl('tag/create', array('idusuario' => $idusuario)),
+				)
+		);
+		
+		echo ' ';
+	?>
+	
+	<br></br>
+	
+	<?php 
+	
+		if($usuario->tags != null){
+			$tag = $usuario->tags;
+	
+			$gridDataProvider = new CArrayDataProvider($tags);
+				
+			$gridColumns = array(
+					array('name'=>'nome', 'header'=>'#', 'htmlOptions'=>array('style'=>'width: 60px')),
+					array(
+							'htmlOptions' => array('nowrap'=>'nowrap'),
+							'class'=>'booster.widgets.TbButtonColumn',
+							'viewButtonUrl'=>null,
+							'updateButtonUrl'=>null,
+							'deleteButtonUrl'=>null,
+					)
+			);
+				
+			$this->widget(
+					'booster.widgets.TbGridView',
+					array(
+							'dataProvider' => $gridDataProvider,
+							'template' => "{items}",
+							'columns' => $gridColumns,
+					)
+			);
+		}
+		
+		else{
+
+			echo '<div class="alert alert-info">';
+			echo 'Não existem tags cadastradas';
+			echo '</div>';
+			
+		}
+	
+	?>
+
+</div>

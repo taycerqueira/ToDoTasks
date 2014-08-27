@@ -8,19 +8,25 @@
  * @property string $titulo
  * @property string $descricao
  * @property string $dataCriacao
- * @property string $dataConclusao
+ * @property string $dataInicio
+ * @property string $dataFim
  * @property integer $isPublic
  * @property integer $criadorId
  * @property integer $tipoTarefaId
  *
  * The followings are the available model relations:
- * @property Usuario $criador
  * @property TipoTarefa $tipoTarefa
+ * @property Usuario $criador
  * @property Tag[] $tags
  * @property Usuario[] $usuarios
  */
 class Tarefa extends CActiveRecord
 {
+	
+	public $diaTarefa;
+	public $horaInicio;
+	public $horaFim;
+	
 	/**
 	 * @return string the associated database table name
 	 */
@@ -37,13 +43,13 @@ class Tarefa extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('titulo, dataCriacao, dataConclusao, isPublic, criadorId, tipoTarefaId', 'required'),
+			array('titulo, dataCriacao, dataInicio, dataFim, isPublic, criadorId, tipoTarefaId', 'required'),
 			array('isPublic, criadorId, tipoTarefaId', 'numerical', 'integerOnly'=>true),
 			array('titulo', 'length', 'max'=>50),
 			array('descricao', 'length', 'max'=>300),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, titulo, descricao, dataCriacao, dataConclusao, isPublic, criadorId, tipoTarefaId', 'safe', 'on'=>'search'),
+			array('id, titulo, descricao, dataCriacao, dataInicio, dataFim, isPublic, criadorId, tipoTarefaId', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -55,8 +61,8 @@ class Tarefa extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'criador' => array(self::BELONGS_TO, 'Usuario', 'criadorId'),
 			'tipoTarefa' => array(self::BELONGS_TO, 'TipoTarefa', 'tipoTarefaId'),
+			'criador' => array(self::BELONGS_TO, 'Usuario', 'criadorId'),
 			'tags' => array(self::MANY_MANY, 'Tag', 'tarefa_tag(tarefaId, tagId)'),
 			'usuarios' => array(self::MANY_MANY, 'Usuario', 'usuario_tarefa(tarefaId, usuarioId)'),
 		);
@@ -69,13 +75,17 @@ class Tarefa extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'titulo' => 'Titulo',
-			'descricao' => 'Descricao',
-			'dataCriacao' => 'Data de Criacao',
-			'dataConclusao' => 'Data de Conclusao',
-			'isPublic' => 'Publica',
+			'titulo' => 'Título',
+			'descricao' => 'Descrição',
+			'dataCriacao' => 'Data de Criação',
+			'dataInicio' => 'Data de Início',
+			'dataFim' => 'Data de Término',
+			'diaTarefa' => 'Dia',
+			'horaInicio' => 'Inicio',
+			'horaFim' => 'Fim',
+			'isPublic' => 'Tarefa Pública',
 			'criadorId' => 'Criador',
-			'tipoTarefaId' => 'Tipo da Tarefa',
+			'tipoTarefaId' => 'Tipo Tarefa',
 		);
 	}
 
@@ -101,7 +111,8 @@ class Tarefa extends CActiveRecord
 		$criteria->compare('titulo',$this->titulo,true);
 		$criteria->compare('descricao',$this->descricao,true);
 		$criteria->compare('dataCriacao',$this->dataCriacao,true);
-		$criteria->compare('dataConclusao',$this->dataConclusao,true);
+		$criteria->compare('dataInicio',$this->dataInicio,true);
+		$criteria->compare('dataFim',$this->dataFim,true);
 		$criteria->compare('isPublic',$this->isPublic);
 		$criteria->compare('criadorId',$this->criadorId);
 		$criteria->compare('tipoTarefaId',$this->tipoTarefaId);

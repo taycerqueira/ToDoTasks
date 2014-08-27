@@ -33,11 +33,11 @@ class TarefaController extends Controller
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
-				'users'=>array('*'),
+				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('*'),
+				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -67,8 +67,8 @@ class TarefaController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Tarefa'])){
-			
+		if(isset($_POST['Tarefa']))
+		{
 			$model->attributes=$_POST['Tarefa'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
@@ -157,7 +157,6 @@ class TarefaController extends Controller
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
-		
 	}
 
 	/**
