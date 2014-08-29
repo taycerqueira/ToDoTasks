@@ -1,9 +1,8 @@
 <?php
 /* @var $this TagController */
 /* @var $model Tag */
-/* @var $idusuario Integer */
 
-$usuario = Usuario::model()->findByPk($idusuario);
+$usuario = Usuario::model()->findByPk(Yii::app()->user->id);
 
 ?>
 

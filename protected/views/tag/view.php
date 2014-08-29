@@ -37,18 +37,18 @@ $usuario = Usuario::model()->findByPk($idusuario);
 	<?php 
 	
 		if($usuario->tags != null){
-			$tag = $usuario->tags;
+			
+			$tags = $usuario->tags;
 	
 			$gridDataProvider = new CArrayDataProvider($tags);
 				
 			$gridColumns = array(
-					array('name'=>'nome', 'header'=>'#', 'htmlOptions'=>array('style'=>'width: 60px')),
+					array('name'=>'nome', 'header'=>'Tags'), //para cada coluna adicionar um novo array como este.
 					array(
 							'htmlOptions' => array('nowrap'=>'nowrap'),
 							'class'=>'booster.widgets.TbButtonColumn',
-							'viewButtonUrl'=>null,
-							'updateButtonUrl'=>null,
-							'deleteButtonUrl'=>null,
+							'template'=>'{delete} {update}',
+							'deleteConfirmation'=>'Tem certeza que deseja excluir essa tag?',
 					)
 			);
 				
@@ -56,8 +56,9 @@ $usuario = Usuario::model()->findByPk($idusuario);
 					'booster.widgets.TbGridView',
 					array(
 							'dataProvider' => $gridDataProvider,
-							'template' => "{items}",
+							'type'=>'striped',
 							'columns' => $gridColumns,
+							'htmlOptions' => array('style'=>'width: 300px'),
 					)
 			);
 		}
@@ -71,5 +72,7 @@ $usuario = Usuario::model()->findByPk($idusuario);
 		}
 	
 	?>
+
+	<br></br>
 
 </div>

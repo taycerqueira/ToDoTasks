@@ -49,18 +49,19 @@ class TagController extends Controller
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
 	 */
-	public function actionView($idusuario)
+	public function actionView()
 	{
-		$this->render('view', array('idusuario'=>$idusuario));
+		$this->render('view', array('idusuario'=>Yii::app()->user->id));
 	}
 
 	/**
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate($idusuario)
+	public function actionCreate()
 	{
 		$model=new Tag;
+		$model->usuarioId = Yii::app()->user->id;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -69,13 +70,13 @@ class TagController extends Controller
 		{
 			$model->attributes=$_POST['Tag'];
 			if($model->save()){
-				$this->redirect(array('view','idusuario'=>$idusuario));
+				$this->redirect(array('view','idusuario'=>Yii::app()->user->id));
 			}
 		}
 
 		$this->render('create',array(
 			'model'=>$model,
-		    'idusuario'=>$idusuario,
+		    'idusuario'=>Yii::app()->user->id,
 		));
 	}
 
@@ -95,7 +96,7 @@ class TagController extends Controller
 		{
 			$model->attributes=$_POST['Tag'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect($this->createUrl('view', array('idusuario' => Yii::app()->user->id)));
 		}
 
 		$this->render('update',array(

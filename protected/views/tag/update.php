@@ -2,20 +2,67 @@
 /* @var $this TagController */
 /* @var $model Tag */
 
-$this->breadcrumbs=array(
-	'Tags'=>array('index'),
-	$model->id=>array('view','id'=>$model->id),
-	'Update',
-);
-
-$this->menu=array(
-	array('label'=>'List Tag', 'url'=>array('index')),
-	array('label'=>'Create Tag', 'url'=>array('create')),
-	array('label'=>'View Tag', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Manage Tag', 'url'=>array('admin')),
-);
 ?>
 
-<h1>Update Tag <?php echo $model->id; ?></h1>
+<div class="container" style="width: 37%; margin-left: 60px;">
 
-<?php $this->renderPartial('_form', array('model'=>$model)); ?>
+	<div class="page-header">
+		<h1>To Do Tasks</h1>
+	</div>
+	
+	<div>
+		<blockquote>
+			<h2>Editar Tag</h2>
+		</blockquote>
+	</div>
+
+	<div class="panel panel-primary">
+	
+		<div class="panel-heading">
+			Editar Tag
+		</div>
+	
+		<div class="panel-body" style="width: 400px; margin-left: 30px; margin-top: 20px">
+
+			<?php 
+			
+				/** @var TbActiveForm $form */
+			
+				$form = $this->beginWidget(
+					'booster.widgets.TbActiveForm',
+					array(
+						'id' => 'verticalForm',
+						'type' => 'vertical',
+					)
+				); 
+			
+				echo $form->textFieldGroup(
+						$model, 'nome',
+						array(
+								'wrapperHtmlOptions' => array(
+										'class' => 'col-sm-5',
+								),
+						)
+				);
+				
+				
+			?>
+			
+		<div class="form-actions">
+			
+			<?php 
+					$this->widget(
+						'booster.widgets.TbButton',
+						array(
+							'buttonType' => 'submit',
+							'context' => 'primary',
+							'label' => 'Salvar'
+						)
+					); 
+
+					$this->endWidget();
+			?>
+
+		</div>
+	</div>		
+</div>
