@@ -19,7 +19,7 @@
         <div class="container">
              <hr class="section-heading-spacer">
              <div class="clearfix"></div>
-             <h2 class="section-heading">To Do Tasks... (alguma descrição)</h2>
+             <h2 class="section-heading">To Do Tasks... (alguma descrição!)</h2>
              <p class="lead">Mais informacoes... </p>
         </div>
     </div>
