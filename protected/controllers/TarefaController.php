@@ -29,7 +29,7 @@ class TarefaController extends Controller
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
-				'users'=>array('*'),
+				'users'=>array('@'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
@@ -60,23 +60,38 @@ class TarefaController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate($idusuario)
+	public function actionCreate()
 	{
 		$model=new Tarefa;
+		$model->criadorId = Yii::app()->user->id;
 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		//$this->performAjaxValidation($model);
 
 		if(isset($_POST['Tarefa']))
 		{
 			$model->attributes=$_POST['Tarefa'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+			$model->dataCriacao = new CDbExpression('NOW()');
+			$model->tipoTarefaId = '1';
+			//$model->tags = $_POST['Tarefa']['tags'];
+			
+			if($model->save()){
+				
+				/*foreach ($_POST['Tarefa']['tags'] as $tagId) {
+					$tarefaTag = new TarefaTag();
+					$tarefaTag->tarefaId = $model->id;
+					$tarefaTag->tagId = $tagId;
+					if (!$tarefaTag->save()) print_r($tarefaTag->errors);
+				}*/
+				
+				//MUDAR ISSO AQUI!
+				$this->redirect(array('usuario/home','id'=>Yii::app()->user->id));
+			}
 		}
 
 		$this->render('create',array(
 			'model'=>$model,
-			'idusuario'=> $idusuario,
+
 		));
 	}
 

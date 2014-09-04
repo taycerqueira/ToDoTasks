@@ -1,8 +1,8 @@
 <?php
-/* @var $this TagController */
-/* @var $idusuario Integer */
 
-$usuario = Usuario::model()->findByPk($idusuario);
+/* @var $this TagController */
+
+$usuario = Usuario::model()->findByPk(Yii::app()->user->id);
 
 ?>
 
@@ -25,7 +25,7 @@ $usuario = Usuario::model()->findByPk($idusuario);
 						'label' => 'Nova Tag',
 						'context' => 'primary',
 						'buttonType' => 'link',
-						'url' => $this->createUrl('tag/create', array('idusuario' => $idusuario)),
+						'url' => $this->createUrl('tag/create', array('idusuario' => Yii::app()->user->id)),
 				)
 		);
 		

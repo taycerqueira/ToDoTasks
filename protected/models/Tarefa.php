@@ -8,8 +8,9 @@
  * @property string $titulo
  * @property string $descricao
  * @property string $dataCriacao
- * @property string $dataInicio
- * @property string $dataFim
+ * @property string $dia
+ * @property string $horaInicio
+ * @property string $horaFim
  * @property integer $isPublic
  * @property integer $criadorId
  * @property integer $tipoTarefaId
@@ -22,10 +23,6 @@
  */
 class Tarefa extends CActiveRecord
 {
-	
-	public $diaTarefa;
-	public $horaInicio;
-	public $horaFim;
 	
 	/**
 	 * @return string the associated database table name
@@ -43,21 +40,20 @@ class Tarefa extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('titulo, dataCriacao, dataInicio, dataFim, isPublic, criadorId, tipoTarefaId', 'required'),
+			array('titulo, dataCriacao, dia, horaInicio, horaFim, isPublic, criadorId, tipoTarefaId', 'required'),
 			array('isPublic, criadorId, tipoTarefaId', 'numerical', 'integerOnly'=>true),
 			array('titulo', 'length', 'max'=>50),
 			array('descricao', 'length', 'max'=>300),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, titulo, descricao, dataCriacao, dataInicio, dataFim, isPublic, criadorId, tipoTarefaId', 'safe', 'on'=>'search'),
+			array('id, titulo, descricao, dataCriacao, dia, horaInicio, horaFim, isPublic, criadorId, tipoTarefaId', 'safe', 'on'=>'search'),
 		);
 	}
 
 	/**
 	 * @return array relational rules.
 	 */
-	public function relations()
-	{
+	public function relations(){
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
@@ -75,18 +71,23 @@ class Tarefa extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'titulo' => 'Título',
-			'descricao' => 'Descrição',
-			'dataCriacao' => 'Data de Criação',
-			'dataInicio' => 'Data de Início',
-			'dataFim' => 'Data de Término',
-			'diaTarefa' => 'Dia',
-			'horaInicio' => 'Inicio',
-			'horaFim' => 'Fim',
-			'isPublic' => 'Tarefa Pública',
+			'titulo' => 'Título: ',
+			'descricao' => 'Descrição: ',
+			'dataCriacao' => 'Data de Criação: ',
+			'dia' => 'Dia ',
+			'horaInicio' => 'Inicio ',
+			'horaFim' => 'Fim ',
+			'isPublic' => 'Tarefa Pública: ',
 			'criadorId' => 'Criador',
-			'tipoTarefaId' => 'Tipo Tarefa',
+			'tipoTarefa' => 'Tipo: ',
+			'tags' => 'Tags: ',
 		);
+	}
+	
+	protected function beforeSave(){
+		$this->dataCriacao = new CDbExpression('NOW()');
+		//$this->dia = date('Y-m-d', $this->dia);
+		return true;
 	}
 
 	/**
@@ -111,8 +112,9 @@ class Tarefa extends CActiveRecord
 		$criteria->compare('titulo',$this->titulo,true);
 		$criteria->compare('descricao',$this->descricao,true);
 		$criteria->compare('dataCriacao',$this->dataCriacao,true);
-		$criteria->compare('dataInicio',$this->dataInicio,true);
-		$criteria->compare('dataFim',$this->dataFim,true);
+		$criteria->compare('dia',$this->dia,true);
+		$criteria->compare('horaInicio',$this->horaInicio,true);
+		$criteria->compare('horaFim',$this->horaFim,true);
 		$criteria->compare('isPublic',$this->isPublic);
 		$criteria->compare('criadorId',$this->criadorId);
 		$criteria->compare('tipoTarefaId',$this->tipoTarefaId);

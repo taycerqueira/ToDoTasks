@@ -75,8 +75,10 @@ class UsuarioController extends Controller
 		{
 			
 			$model->attributes=$_POST['Usuario'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+			if($model->save()){
+				//$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('site/login'));
+			}
 		}
 
 		$this->render('create',array(

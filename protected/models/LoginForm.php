@@ -37,6 +37,7 @@ class LoginForm extends CFormModel
 	{
 		return array(
 			'rememberMe'=>'Mantenha-me conectado',
+			'email' => 'E-mail',
 		);
 	}
 

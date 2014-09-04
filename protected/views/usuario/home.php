@@ -1,4 +1,5 @@
 <?php
+
 /* @var $this UsuarioController */
 /* @var $model Usuario */
 
@@ -32,7 +33,7 @@
 						'label' => 'Meus Tipos de Tarefa',
 						'context' => 'primary',
 						'buttonType' => 'link',
-						'url' => $this->createUrl('tipoTarefa/create', array('idusuario' => $model->id)),
+						'url' => $this->createUrl('tipoTarefa/view', array('idusuario' => $model->id)),
 				)
 		);
 		

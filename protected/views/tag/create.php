@@ -1,8 +1,7 @@
 <?php
+
 /* @var $this TagController */
 /* @var $model Tag */
-
-$usuario = Usuario::model()->findByPk(Yii::app()->user->id);
 
 ?>
 
@@ -56,7 +55,7 @@ $usuario = Usuario::model()->findByPk(Yii::app()->user->id);
 						array(
 							'buttonType' => 'submit',
 							'context' => 'primary',
-							'label' => 'Criar Tag'
+							'label' => 'Salvar'
 						)
 					); 
 			?>

@@ -9,12 +9,6 @@
 	<div class="page-header">
 		<h1>To Do Tasks</h1>
 	</div>
-	
-	<div>
-		<blockquote>
-			<h2>Editar Tag</h2>
-		</blockquote>
-	</div>
 
 	<div class="panel panel-primary">
 	

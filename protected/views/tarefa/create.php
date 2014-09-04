@@ -2,9 +2,8 @@
 
 /* @var $this TarefaController */
 /* @var $model Tarefa */
-/* @var $idusuario Integer */
 
-$usuario = Usuario::model()->findByPk($idusuario);
+$usuario = Usuario::model()->findByPk(Yii::app()->user->id);
 
 ?>
 
@@ -29,7 +28,7 @@ $usuario = Usuario::model()->findByPk($idusuario);
 				$form = $this->beginWidget(
 					'booster.widgets.TbActiveForm',
 					array(
-						'id' => 'verticalForm',
+						'id' => 'tarefa-form',
 						'type' => 'vertical',
 					)
 				); 
@@ -61,7 +60,7 @@ $usuario = Usuario::model()->findByPk($idusuario);
 				
 				echo $form->datePickerGroup(
 						$model,
-						'diaTarefa',
+						'dia',
 						array(
 								'widgetOptions' => array(
 										'options' => array(
@@ -82,10 +81,17 @@ $usuario = Usuario::model()->findByPk($idusuario);
 										'wrapperHtmlOptions' => array(
 												'class' => 'col-sm-3'
 										),
+										'options' => array(
+												'disableFocus' => true, 
+												'showMeridian' => false
+										),
 								),
 								'hint' => 'Hora de início',
+								'noAppend' => true, 
 						)
+						
 				);
+				
 				
 				echo $form->timePickerGroup(
 						$model,
@@ -95,6 +101,10 @@ $usuario = Usuario::model()->findByPk($idusuario);
 										'wrapperHtmlOptions' => array(
 												'class' => 'col-sm-3'
 										),
+										'options' => array(
+												'disableFocus' => true, 
+												'showMeridian' => false 
+										),
 								),
 								'hint' => 'Hora de término',
 						)
@@ -103,8 +113,38 @@ $usuario = Usuario::model()->findByPk($idusuario);
 				echo '</div>';
 				
 				echo $form->checkboxGroup($model, 'isPublic');
+				
+				echo $form->dropDownListGroup(
+					$model,
+					'tipoTarefa',
+					array(
+						'wrapperHtmlOptions' => array(
+							'class' => 'col-sm-2',
+						),
+						'widgetOptions' => array(  
+							'data' => CHtml::listData($usuario->tipoTarefas, 'id', 'nome'),
+							'htmlOptions' => array(),
+						)
+					)
+				); 
+				
+				echo $form->dropDownListGroup(
+						$model,
+						'tags',
+						array(
+								'wrapperHtmlOptions' => array(
+										'class' => 'col-sm-5',
+								),
+								'widgetOptions' => array(
+										'data' => CHtml::listData($usuario->tags, 'id', 'nome'),
+										'htmlOptions' => array('multiple' => true),
+								)
+						)
+				);
 			
 			?>
+			
+			<br></br>
 			
 			<div class="form-actions">
 			
@@ -123,7 +163,7 @@ $usuario = Usuario::model()->findByPk($idusuario);
 				
 					$this->widget(
 							'booster.widgets.TbButton',
-							array('buttonType' => 'reset', 'label' => 'Limpar')
+							array('buttonType' => 'reset', 'label' => 'Limpar') 
 					);
 				
 				?>

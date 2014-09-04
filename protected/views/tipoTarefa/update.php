@@ -1,21 +1,63 @@
 <?php
+
 /* @var $this TipoTarefaController */
 /* @var $model TipoTarefa */
 
-$this->breadcrumbs=array(
-	'Tipo Tarefas'=>array('index'),
-	$model->id=>array('view','id'=>$model->id),
-	'Update',
-);
-
-$this->menu=array(
-	array('label'=>'List TipoTarefa', 'url'=>array('index')),
-	array('label'=>'Create TipoTarefa', 'url'=>array('create')),
-	array('label'=>'View TipoTarefa', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Manage TipoTarefa', 'url'=>array('admin')),
-);
 ?>
 
-<h1>Update TipoTarefa <?php echo $model->id; ?></h1>
+<div class="container" style="width: 37%; margin-left: 60px;">
 
-<?php $this->renderPartial('_form', array('model'=>$model)); ?>
+	<div class="page-header">
+		<h1>To Do Tasks</h1>
+	</div>
+	
+	<div class="panel panel-primary">
+	
+		<div class="panel-heading">
+			Editar Tipo de Tarefa
+		</div>
+	
+		<div class="panel-body" style="width: 400px; margin-left: 30px; margin-top: 20px">
+
+			<?php 
+			
+				/** @var TbActiveForm $form */
+			
+				$form = $this->beginWidget(
+					'booster.widgets.TbActiveForm',
+					array(
+						'id' => 'verticalForm',
+						'type' => 'vertical',
+					)
+				); 
+			
+				echo $form->textFieldGroup(
+						$model, 'nome',
+						array(
+								'wrapperHtmlOptions' => array(
+										'class' => 'col-sm-5',
+								),
+						)
+				);
+				
+				
+			?>
+			
+		<div class="form-actions">
+			
+			<?php 
+					$this->widget(
+						'booster.widgets.TbButton',
+						array(
+							'buttonType' => 'submit',
+							'context' => 'primary',
+							'label' => 'Salvar'
+						)
+					); 
+
+					$this->endWidget();
+			?>
+
+		</div>
+	</div>		
+</div>

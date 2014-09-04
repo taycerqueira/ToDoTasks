@@ -9,23 +9,21 @@ class UserIdentity extends CUserIdentity
 {
 	private $_id;
 	private $_username;
-	private $_usuario;
 	
 	public function authenticate() {
-		$user = Usuario::model()->findByAttributes(array('email'=>$this->username));
+		$usuario = Usuario::model()->findByAttributes(array('email'=>$this->username));
 
-		if($user===null){
+		if($usuario===null){
 			$this->errorCode = self::ERROR_USERNAME_INVALID;
 		}
 		
-        else if($user->senha!==$this->password){
+        else if($usuario->senha!==$this->password){
             $this->errorCode=self::ERROR_PASSWORD_INVALID;
         }
         
 		else{
-			$this->_id = $user->id;
-			$this->_usuario = $user;
-			//$this->setState('id', $user->id);
+			$this->_id = $usuario->id;
+			$this->setState('nome', $usuario->nome);
 			$this->errorCode=self::ERROR_NONE;
 		}
 
@@ -50,5 +48,4 @@ class UserIdentity extends CUserIdentity
 	    return $this->_username;
 	}
 			
-	
 }
