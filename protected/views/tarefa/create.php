@@ -65,6 +65,7 @@ $usuario = Usuario::model()->findByPk(Yii::app()->user->id);
 								'widgetOptions' => array(
 										'options' => array(
 												'language' => 'pt',
+												'format' => 'dd/mm/yyyy',
 										),
 								),
 
@@ -86,7 +87,7 @@ $usuario = Usuario::model()->findByPk(Yii::app()->user->id);
 												'showMeridian' => false
 										),
 								),
-								'hint' => 'Hora de início',
+								'hint' => 'Hora de Início',
 								'noAppend' => true, 
 						)
 						
@@ -106,7 +107,7 @@ $usuario = Usuario::model()->findByPk(Yii::app()->user->id);
 												'showMeridian' => false 
 										),
 								),
-								'hint' => 'Hora de término',
+								'hint' => 'Hora de Término',
 						)
 				);
 				
@@ -116,7 +117,7 @@ $usuario = Usuario::model()->findByPk(Yii::app()->user->id);
 				
 				echo $form->dropDownListGroup(
 					$model,
-					'tipoTarefa',
+					'tipoTarefaId',
 					array(
 						'wrapperHtmlOptions' => array(
 							'class' => 'col-sm-2',
@@ -126,7 +127,7 @@ $usuario = Usuario::model()->findByPk(Yii::app()->user->id);
 							'htmlOptions' => array(),
 						)
 					)
-				); 
+				);
 				
 				echo $form->dropDownListGroup(
 						$model,

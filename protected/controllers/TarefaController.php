@@ -66,25 +66,23 @@ class TarefaController extends Controller
 		$model->criadorId = Yii::app()->user->id;
 
 		// Uncomment the following line if AJAX validation is needed
-		//$this->performAjaxValidation($model);
+		$this->performAjaxValidation($model);
 
 		if(isset($_POST['Tarefa']))
 		{
 			$model->attributes=$_POST['Tarefa'];
+			
 			$model->dataCriacao = new CDbExpression('NOW()');
-			$model->tipoTarefaId = '1';
-			//$model->tags = $_POST['Tarefa']['tags'];
 			
 			if($model->save()){
 				
-				/*foreach ($_POST['Tarefa']['tags'] as $tagId) {
+				foreach ($_POST['Tarefa']['tags'] as $tagId) {
 					$tarefaTag = new TarefaTag();
 					$tarefaTag->tarefaId = $model->id;
 					$tarefaTag->tagId = $tagId;
 					if (!$tarefaTag->save()) print_r($tarefaTag->errors);
-				}*/
+				}
 				
-				//MUDAR ISSO AQUI!
 				$this->redirect(array('usuario/home','id'=>Yii::app()->user->id));
 			}
 		}

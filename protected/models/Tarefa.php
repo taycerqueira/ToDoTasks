@@ -79,15 +79,14 @@ class Tarefa extends CActiveRecord
 			'horaFim' => 'Fim ',
 			'isPublic' => 'Tarefa Pública: ',
 			'criadorId' => 'Criador',
-			'tipoTarefa' => 'Tipo: ',
+			'tipoTarefaId' => 'Tipo: ',
 			'tags' => 'Tags: ',
 		);
 	}
 	
 	protected function beforeSave(){
-		$this->dataCriacao = new CDbExpression('NOW()');
-		//$this->dia = date('Y-m-d', $this->dia);
-		return true;
+		$this->dia = DateTime::createFromFormat('d/m/Y', $this->dia)->format('Y-m-d');
+		return parent::beforeSave();
 	}
 
 	/**
