@@ -14,6 +14,14 @@
 	<?php
 	
 		$this->widget(
+		    'booster.widgets.TbBreadcrumbs',
+		    array(
+		        'homeLink' => 'Home',
+		        'links' => array('')
+		    )
+		);
+	
+		$this->widget(
 				'booster.widgets.TbButton',
 				array(
 						'label' => 'Nova Tarefa',
@@ -63,6 +71,7 @@
 	
 	<?php 
 	
+		
 		if($model->tarefas != null){
 			
 			$tarefas = $model->tarefas;
@@ -70,16 +79,16 @@
 			$gridDataProvider = new CArrayDataProvider($tarefas);
 			
 			$gridColumns = array(
-					array('name'=>'id', 'header'=>'#', 'htmlOptions'=>array('style'=>'width: 60px')),
 					array('name'=>'titulo', 'header'=>'Título'),
-					array('name'=>'criador', 'header'=>'Criador'),
-					array('name'=>'descricao', 'header'=>'Descricao'),
+					array('name'=>'descricao', 'header'=>'Descrição'),
+					array('name'=>'dia', 'header'=>'Dia'),
+					array('name'=>'criador.nome', 'header'=>'Criador'),
+					
 					array(
 							'htmlOptions' => array('nowrap'=>'nowrap'),
 							'class'=>'booster.widgets.TbButtonColumn',
-							'viewButtonUrl'=>null,
-							'updateButtonUrl'=>null,
-							'deleteButtonUrl'=>null,
+							'template'=>'{delete} {update}',
+							'deleteConfirmation'=>'Tem certeza que deseja excluir essa tarefa?',
 					)
 			);
 			
@@ -87,10 +96,12 @@
 					'booster.widgets.TbGridView',
 					array(
 							'dataProvider' => $gridDataProvider,
-							'template' => "{items}",
+							'type'=>'striped',
 							'columns' => $gridColumns,
+							'htmlOptions' => array('style'=>'width: 700px'),
 					)
 			);
+
 		}
 		
 		else {

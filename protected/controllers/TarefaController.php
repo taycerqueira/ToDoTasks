@@ -62,7 +62,7 @@ class TarefaController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Tarefa;
+		$model = new Tarefa;
 		$model->criadorId = Yii::app()->user->id;
 
 		// Uncomment the following line if AJAX validation is needed
@@ -71,10 +71,14 @@ class TarefaController extends Controller
 		if(isset($_POST['Tarefa']))
 		{
 			$model->attributes=$_POST['Tarefa'];
-			
 			$model->dataCriacao = new CDbExpression('NOW()');
 			
 			if($model->save()){
+				
+				$usuarioTarefa = new UsuarioTarefa();
+				$usuarioTarefa->usuarioId = Yii::app()->user->id;
+				$usuarioTarefa->tarefaId = $model->id;
+				if (!$usuarioTarefa->save()) print_r($usuarioTarefa->errors);
 				
 				foreach ($_POST['Tarefa']['tags'] as $tagId) {
 					$tarefaTag = new TarefaTag();

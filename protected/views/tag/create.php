@@ -5,11 +5,21 @@
 
 ?>
 
-<div class="container" style="width: 37%; margin-left: 60px;">
+<div class="container">
 
 	<div class="page-header">
 		<h1>To Do Tasks</h1>
 	</div>
+	
+	<?php 
+		$this->widget(
+		    'booster.widgets.TbBreadcrumbs',
+		    array(
+				'homeLink' => CHtml::link('Home', $this->createAbsoluteUrl('usuario/home',array('id'=>Yii::app()->user->id))),
+		        'links' => array('Minhas Tags' => $this->createUrl('tag/view', array('id'=>Yii::app()->user->id)), 'Nova Tag'),
+		    )
+		);
+	?>
 	
 	<div>
 		<blockquote>
@@ -17,7 +27,7 @@
 		</blockquote>
 	</div>
 
-	<div class="panel panel-primary">
+	<div class="panel panel-primary" style="width: 45%;">
 	
 		<div class="panel-heading">
 			Tag

@@ -3,17 +3,28 @@
 /* @var $this TarefaController */
 /* @var $model Tarefa */
 
+//Yii::app()->homeUrl = $this->createUrl('usuario/home', array('idusuario' => Yii::app()->user->id));
 $usuario = Usuario::model()->findByPk(Yii::app()->user->id);
 
 ?>
 
-<div class="container" style="width: 50%; margin-left: 60px;">
+<div class="container">
 
 	<div class="page-header">
 		<h1>To Do Tasks</h1>
 	</div>
+	
+	<?php 
+		$this->widget(
+		    'booster.widgets.TbBreadcrumbs',
+		    array(
+				'homeLink' => CHtml::link('Home', $this->createAbsoluteUrl('usuario/home',array('id'=>Yii::app()->user->id))),
+		        'links' => array('Nova Tarefa'),
+		    )
+		);
+	?>
 
-	<div class="panel panel-primary">
+	<div class="panel panel-primary" style="width: 50%;">
 	
 		<div class="panel-heading">
 			Nova Tarefa

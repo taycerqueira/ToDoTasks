@@ -5,11 +5,21 @@ $usuario = Usuario::model()->findByPk(Yii::app()->user->id);
 
 ?>
 
-<div class="container" style="width: 37%; margin-left: 60px;">
+<div class="container">
 
 	<div class="page-header">
 		<h1>To Do Tasks</h1>
 	</div>
+	
+	<?php 
+		$this->widget(
+		    'booster.widgets.TbBreadcrumbs',
+		    array(
+				'homeLink' => CHtml::link('Home', $this->createAbsoluteUrl('usuario/home',array('id'=>Yii::app()->user->id))),
+		        'links' => array('Meus Tipos de Tarefa'),
+		    )
+		);
+	?>
 	
 	<div>
 		<blockquote>
