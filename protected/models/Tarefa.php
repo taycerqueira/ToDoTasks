@@ -84,6 +84,15 @@ class Tarefa extends CActiveRecord
 		);
 	}
 	
+	public function getVisibilidade(){
+		if($this->isPublic == 1){
+			return 'Publico';
+		}
+		else if($this->isPublic == 0){
+			return 'Privado';
+		}
+	}
+	
 	protected function beforeSave(){
 		$this->dia = DateTime::createFromFormat('d/m/Y', $this->dia)->format('Y-m-d');
 		return parent::beforeSave();

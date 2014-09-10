@@ -81,13 +81,18 @@
 			$gridColumns = array(
 					array('name'=>'titulo', 'header'=>'Título'),
 					array('name'=>'descricao', 'header'=>'Descrição'),
-					array('name'=>'dia', 'header'=>'Dia'),
+					array('name'=>'dia', 'header'=>'Dia', 'value'=>'Yii::app()->dateFormatter->format("d/MM/y", strtotime($data->dia))'),
+					array('name'=>'horaInicio', 'header'=>'Início', 'value'=>'Yii::app()->dateFormatter->format("HH:mm", strtotime($data->horaInicio))'),
+					array('name'=>'horaFim', 'header'=>'Fim', 'value'=>'Yii::app()->dateFormatter->format("HH:mm", strtotime($data->horaFim))'),
 					array('name'=>'criador.nome', 'header'=>'Criador'),
 					
 					array(
 							'htmlOptions' => array('nowrap'=>'nowrap'),
 							'class'=>'booster.widgets.TbButtonColumn',
-							'template'=>'{delete} {update}',
+							'template'=>'{view} {delete} {update}',
+							'viewButtonUrl'=>'Yii::app()->createUrl("/tarefa/view", array("id" => $data["id"]))',
+							'deleteButtonUrl'=>'Yii::app()->createUrl("/tarefa/delete", array("id" => $data["id"]))',
+							'updateButtonUrl'=>'Yii::app()->createUrl("/tarefa/update", array("id" => $data["id"]))',
 							'deleteConfirmation'=>'Tem certeza que deseja excluir essa tarefa?',
 					)
 			);
