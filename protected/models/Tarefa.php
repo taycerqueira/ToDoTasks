@@ -97,6 +97,14 @@ class Tarefa extends CActiveRecord
 		$this->dia = DateTime::createFromFormat('d/m/Y', $this->dia)->format('Y-m-d');
 		return parent::beforeSave();
 	}
+	
+	protected function afterFind(){
+		
+		parent::afterFind();
+	
+		//converte o formatado da data do formato do banco para o formato de exibição no sistema
+		$this->dia = DateTime::createFromFormat('Y-m-d', $this->dia)->format('d/m/Y');
+	}
 
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.

@@ -3,7 +3,6 @@
 /* @var $this TarefaController */
 /* @var $model Tarefa */
 
-//Yii::app()->homeUrl = $this->createUrl('usuario/home', array('idusuario' => Yii::app()->user->id));
 $usuario = Usuario::model()->findByPk(Yii::app()->user->id);
 
 ?>
@@ -94,7 +93,7 @@ $usuario = Usuario::model()->findByPk(Yii::app()->user->id);
 												'class' => 'col-sm-3'
 										),
 										'options' => array(
-												'disableFocus' => true, 
+												//'disableFocus' => true, 
 												'showMeridian' => false
 										),
 								),

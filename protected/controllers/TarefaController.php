@@ -104,7 +104,7 @@ class TarefaController extends Controller
 	 */
 	public function actionUpdate($id)
 	{
-		$model=$this->loadModel($id);
+		$model = $this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -116,9 +116,10 @@ class TarefaController extends Controller
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
-		$this->render('update',array(
+		$this->renderPartial('update',array(
 			'model'=>$model,
 		));
+		
 	}
 
 	/**

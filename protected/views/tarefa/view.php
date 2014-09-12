@@ -4,6 +4,14 @@
 /* @var $model Tarefa */
 
 ?>
+ 
+<style>
+	.datepicker {z-index: 1151 !important;}
+	.bootstrap-timepicker-widget {
+ 		z-index: 100000 !important;
+ 	}
+</style>
+
 
 <div class="container">
 
@@ -33,7 +41,6 @@
 	
 	<?php 	
 	
-	
 		echo '<div class="well">';
 		$this->widget(
 				'booster.widgets.TbDetailView',
@@ -43,7 +50,7 @@
 						'attributes' => array(
 								array('name' => 'titulo', 'label' => 'Título'),
 								array('name' => 'descricao', 'label' => 'Descrição'),
-								array('name' => 'dia', 'label' => 'Dia', 'value' => Yii::app()->dateFormatter->format("d/MM/y", strtotime($model->dia))),
+								array('name' => 'dia', 'label' => 'Dia'),
 								array('name' => 'horario', 'label' => 'Horário', 'value' => Yii::app()->dateFormatter->format("HH:mm", strtotime($model->horaInicio)).' - '.Yii::app()->dateFormatter->format("HH:mm", strtotime($model->horaFim))),
 								array('name' => 'tipo', 'label' => 'Tipo', 'value' => $model->tipoTarefa->nome),
 								array('name' => 'visibilidade', 'label' => 'Visibilidade', 'value' => $model->getVisibilidade()),
@@ -65,6 +72,7 @@
 		echo ' ';
 	?>
 	
+	<!-- INICIO DO MODAL -->
 	
 		<?php 
 			$this->beginWidget(
@@ -72,7 +80,7 @@
 			    array('id' => 'myModal')
 			); 
 		?>
-		 
+		 	
 		    <div class="modal-header">
 		        <a class="close" data-dismiss="modal">&times;</a>
 		        <h4>Editar Tarefa</h4>
@@ -89,7 +97,7 @@
 					$form = $this->beginWidget(
 						'booster.widgets.TbActiveForm',
 						array(
-							'id' => 'tarefa-form',
+							'id' => 'tarefa-form-update',
 							'type' => 'vertical',
 						)
 					); 
@@ -127,10 +135,11 @@
 											'options' => array(
 													'language' => 'pt',
 													'format' => 'dd/mm/yyyy',
+													//'showAnim'=>'fold',
 											),
 									),
-	
 									'hint' => 'Clique para exibir o calendário',
+									'value' => '12/09/2014',
 									'prepend' => '<i class="glyphicon glyphicon-calendar"></i>'
 							)
 					);
@@ -144,7 +153,7 @@
 													'class' => 'col-sm-3'
 											),
 											'options' => array(
-													'disableFocus' => true, 
+													//'disableFocus' => true, 
 													'showMeridian' => false
 											),
 									),
@@ -153,7 +162,6 @@
 							)
 							
 					);
-					
 					
 					echo $form->timePickerGroup(
 							$model,
@@ -164,7 +172,7 @@
 													'class' => 'col-sm-3'
 											),
 											'options' => array(
-													'disableFocus' => true, 
+													//'disableFocus' => true, 
 													'showMeridian' => false 
 											),
 									),
@@ -190,8 +198,8 @@
 						)
 					);
 
-					$this->endWidget();
-					unset($form);
+					//$this->endWidget();
+					//unset($form);
 				?>
 		    </div>
 		 
@@ -202,7 +210,8 @@
 			            array(
 			                'context' => 'primary',
 			                'label' => 'Salvar',
-			                'url' => '#',
+							'buttonType' => 'submit',
+			                'url' => $this->createUrl('update', array('id' => $model->id)),
 			                'htmlOptions' => array('data-dismiss' => 'modal'),
 			            )
 			        ); 
@@ -212,17 +221,17 @@
 			            'booster.widgets.TbButton',
 			            array(
 			                'label' => 'Fechar',
-			                'url' => '#',
+			                //'url' => '#',
 			                'htmlOptions' => array('data-dismiss' => 'modal'),
 			            )
 			        ); 
 				?>
 		    </div>
-		 
+		    
 		<?php 
-		
-			$this->endWidget(); 
-			
+			$this->endWidget(); 	
+			//unset($form);
+			$this->endWidget();
 		?>
 		
 		<?php 
@@ -238,7 +247,10 @@
 			        ),
 			    )
 			);
+
 		?>
+		
+		<!-- FIM DO MODAL -->
 		
 		<br>
 		<div><h4>Compartilhada com: <h4></div>

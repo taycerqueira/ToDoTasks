@@ -27,7 +27,7 @@
 						'label' => 'Nova Tarefa',
 						'context' => 'primary',
 						'buttonType' => 'link',
-						'url' => $this->createUrl('tarefa/create', array('idusuario' => $model->id)),
+						'url' => $this->createUrl('tarefa/create', array('id' => $model->id)),
 				
 					 )
 				
