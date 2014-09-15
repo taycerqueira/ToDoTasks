@@ -12,6 +12,21 @@
  	}
 </style>
 
+<script>
+	$(function(){
+	    $('#tarefa-form-update').on('submit', function(e){
+	        e.preventDefault();
+	        $.ajax({
+	            url: '<?php $this->createUrl('update') ?>', //this is the submit URL
+	            type: 'POST', //or POST
+	            data: $('#tarefa-form-update').serialize(),
+	            success: function(data){
+	                 alert('successfully submitted')
+	            }
+	        });
+	    });
+	});
+</script>
 
 <div class="container">
 
@@ -72,7 +87,7 @@
 		echo ' ';
 	?>
 	
-	<!-- INICIO DO MODAL -->
+		<!-- INICIO DO MODAL -->
 	
 		<?php 
 			$this->beginWidget(
@@ -99,6 +114,7 @@
 						array(
 							'id' => 'tarefa-form-update',
 							'type' => 'vertical',
+							'enableAjaxValidation' => true,
 						)
 					); 
 				
@@ -210,9 +226,10 @@
 			            array(
 			                'context' => 'primary',
 			                'label' => 'Salvar',
-							'buttonType' => 'submit',
-			                'url' => $this->createUrl('update', array('id' => $model->id)),
-			                'htmlOptions' => array('data-dismiss' => 'modal'),
+							//'buttonType' => 'submit',
+							'buttonType'=>'ajaxSubmit',
+			                //'url' => $this->createUrl('update', array('id' => $model->id)),
+			                'htmlOptions' => array('onclick' => '$("#tarefa-form-update").submit()'),
 			            )
 			        ); 
 				?>
@@ -234,12 +251,16 @@
 			$this->endWidget();
 		?>
 		
+		<!-- FIM DO MODAL -->
+		
 		<?php 
 			$this->widget(
 			    'booster.widgets.TbButton',
 			    array(
 			        'label' => 'Editar',
 			        'context' => 'primary',
+					'buttonType' => 'link',
+					'url' => $this->createUrl('update', array('id' => $model->id)),
 			        'htmlOptions' => array(
 			            'data-toggle' => 'modal',
 			            'data-target' => '#myModal',
@@ -249,8 +270,6 @@
 			);
 
 		?>
-		
-		<!-- FIM DO MODAL -->
 		
 		<br>
 		<div><h4>Compartilhada com: <h4></div>

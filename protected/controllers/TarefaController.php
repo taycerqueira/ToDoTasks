@@ -66,10 +66,10 @@ class TarefaController extends Controller
 		$model->criadorId = Yii::app()->user->id;
 
 		// Uncomment the following line if AJAX validation is needed
-		$this->performAjaxValidation($model);
+		//$this->performAjaxValidation($model);
 
-		if(isset($_POST['Tarefa']))
-		{
+		if(isset($_POST['Tarefa'])){
+			
 			$model->attributes=$_POST['Tarefa'];
 			$model->dataCriacao = new CDbExpression('NOW()');
 			
@@ -102,23 +102,24 @@ class TarefaController extends Controller
 	 * If update is successful, the browser will be redirected to the 'view' page.
 	 * @param integer $id the ID of the model to be updated
 	 */
-	public function actionUpdate($id)
+	public function actionUpdate($model)
 	{
-		$model = $this->loadModel($id);
+		//$model = $this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		$this->performAjaxValidation($model);
 
 		if(isset($_POST['Tarefa']))
 		{
 			$model->attributes=$_POST['Tarefa'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
+				//$this->redirect(array('home','id'=>Yii::app()->user->id));
 		}
 
-		$this->renderPartial('update',array(
+		/*$this->renderPartial('update',array(
 			'model'=>$model,
-		));
+		));*/
 		
 	}
 
